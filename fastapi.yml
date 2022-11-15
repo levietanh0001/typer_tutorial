@@ -1,0 +1,19 @@
+framework: fastapi
+project:
+  paths:
+    - root: .
+  apps:
+    - dvd_rental_api
+    - northwind_api
+  main_py:
+    - entity_type: file
+    - file_extension: .py
+    - where: root
+    - use_case: contains main app instance
+  app_file_structure:
+    - models
+    - schemas
+    - routes
+    - services
+  
+

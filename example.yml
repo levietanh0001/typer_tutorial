@@ -1,0 +1,24 @@
+platform: youtube
+type: channel
+videos:
+  tutorials:
+    tut1: {
+      toc: "",
+      introduction: "",
+      body: ""
+    }
+    tut2: [
+      toc: "",
+      introduction: "",
+      body: ""
+    ]
+  shorts: ""
+---
+platform: instagram
+type: social media
+videos:
+  - reels:
+    - r1
+    - r2
+  - stories: ""
+
